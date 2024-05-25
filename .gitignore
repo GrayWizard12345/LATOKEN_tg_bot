@@ -1,0 +1,5 @@
+.idea
+.venv
+.pyway.conf
+**/__pycache__/
+confings.conf
