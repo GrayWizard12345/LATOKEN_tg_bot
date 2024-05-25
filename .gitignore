@@ -2,4 +2,4 @@
 .venv
 .pyway.conf
 **/__pycache__/
-confings.conf
+configs.conf

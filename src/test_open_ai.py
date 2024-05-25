@@ -2,7 +2,7 @@ from typing import Union
 
 import openai as oa
 from data_parser import extract_context_from_file
-from src.dbutils import read_context, get_secret
+from dbutils import read_context, get_secret
 
 oa.api_key = get_secret("OPENAI_KEY")
 MAX_TEXT_LENGTH = 4095
